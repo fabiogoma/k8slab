@@ -2,7 +2,7 @@ package 'epel-release' do
   action :install
 end
 
-package ['nss-mdns', 'net-tools', 'telnet'] do
+package ['nss-mdns', 'net-tools', 'telnet', 'tcpdump', 'lsof', 'strace'] do
   action :install
 end
 
