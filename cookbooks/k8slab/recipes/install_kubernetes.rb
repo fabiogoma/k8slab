@@ -1,6 +1,6 @@
 # Defining the master and minions names
 master_name = 'kube1'
-master_eth1 = ip = node['network']['interfaces']['eth1']['addresses'].keys[1]
+master_eth1 = node['network']['interfaces']['eth1']['addresses'].keys[1]
 minion_name = node['hostname']
 
 # Preparing the yum repo for kubernetes instalation
