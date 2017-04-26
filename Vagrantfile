@@ -1,10 +1,12 @@
-boxes = %w(kube1 kube2 kube3 kube4 kube5)
-#boxes = %w(kube1 kube2)
+# boxes = %w(kube1 kube2 kube3 kube4 kube5)
+boxes = %w(kube1 kube2)
 
 Vagrant.configure('2') do |config|
   config.vm.box = 'centos/7'
   config.vm.box_version = '1703.01'
   config.vm.network 'public_network', bridge: 'wlp8s0'
+  config.vm.customize ['modifyvm', :id, '--natdnshostresolver1', 'on']
+  config.vm.customize ['modifyvm', :id, '--natdnsproxy1', 'on']
   config.vm.synced_folder '.', '/vagrant', disabled: true
 
   boxes.each do |box|
