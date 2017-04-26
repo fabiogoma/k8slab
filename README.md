@@ -1,9 +1,9 @@
 # Kubernetes (k8s) Laboratory
 In this project I prepared one automated version for the Kubernetes "getting started" suggested by the official documentation [here](https://kubernetes.io/docs/getting-started-guides/centos/centos_manual_config/)
 
-There is a training called **Scalable Microservices with Kubernetes** provided by Udacity [here](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615), this training is hosted by [Carter Morgan](https://github.com/askcarter) and [Kelsey Hightower](https://github.com/kelseyhightower), they give a good explanation regarding the technologies used to prepare your applications to the new era. You can get from zero to hero with this course.
+There is a training called **Scalable Microservices with Kubernetes** provided by Udacity [here](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615), this training is hosted by [Carter Morgan](https://github.com/askcarter) and [Kelsey Hightower](https://github.com/kelseyhightower), they give a very good and detailed explanation about microservices and the technologies used to prepare your applications to the new era. You can get from zero to hero with this course.
 
-I just prepared this project because in the training from Udacity they show the examples using Google cloud, which is a very good solution but some companies are still using on premise environments, specially companies from the finance market.
+I just prepared this project because in the training from Udacity they show the examples using [Google Cloud](https://cloud.google.com/), which is a very good solution but for some companies that are still using on premise environments, like companies from the finance market for example, would be good to have the same agility from startups inside financial companies, that's why I did this lab.
 
 ## Prerequisites
 
@@ -43,5 +43,4 @@ kube3.local   Ready     56m
 kube4.local   Ready     53m
 kube5.local   Ready     50m
 ```
-
-
+From here you are good to go and follow the training from Udacity, keep in mind that this is not for production, this project can be used for lab and training purpose only.
