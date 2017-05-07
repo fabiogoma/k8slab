@@ -25,7 +25,7 @@ I just prepared this project because in the training from Udacity they show the 
 
 * Create and boot VirtualBox instances
 * Provision the hosts with all necessary tools
-* Spin up 5 hosts (1 master, 5 minions)
+* Spin up 5 hosts (1 master, 4 minions)
 * You can SSH into the instances using ```vagrant ssh <host>```
 * Automatic SSH key generation to access your hosts through vagrant
 
