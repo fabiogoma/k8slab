@@ -1,4 +1,4 @@
-boxes = %w(kube1 kube2 kube3 kube4 kube5)
+boxes = %w(kube1 kube2 kube3 kube4)
 # boxes = %w(kube1 kube2)
 
 Vagrant.configure('2') do |config|
